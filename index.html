@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Akamnashr tailwind css</title>
+</head>
+<body class="font-sans">
+
+    <header class="border-t-4 border-solid border-orange-500 bg-white shadow-md">
+
+        <div class="max-w-6xl w-full mx-auto box-border">
+            <div class="flex justify-between items-center py-5 px-4">
+                <a class="sm:w-full w-32" href="index.html"><img src="images/logo.svg" alt="logo img" width="227" height="60"></a>
+                <nav class="flex">
+                    <ul class="hidden sm:flex">
+                        <li class="pt-2 pb-1 border-b-2 border-orange-500 uppercase font-medium mr-6"><a class="text-sm" href="#">Bosh sahifa</a></li>
+                        <li class="pt-2 pb-1 uppercase font-medium mr-6"><a class="text-sm" href="#">Kitoblar</a></li>
+                        <li class="pt-2 pb-1 uppercase font-medium mr-6"><a class="text-sm" href="#">Aksiyalar</a></li>
+                        <li class="pt-2 pb-1 uppercase font-medium"><a class="text-sm" href="#">Kontaktlar</a></li>
+                    </ul>
+                    <a class="inline-block sm:ml-12 ml-2 bg-orange-500 text-white sm:py-2 sm:px-4 py-1 px-2 text-sm rounded font-bold shadow-xl" href="#">Ro'yhatdan o'ting</a>
+                </nav>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+
+        <section class="bg-stone-800">
+            <div class="max-w-6xl w-full mx-auto box-border px-4">
+                <div class="flex justify-between">
+                    <div class="sm:w-96 w-full my-16">
+                        <hr class="mb-16 border-t-4 w-24 border-solid border-orange-500">
+                        <h1 class="text-4xl leading-tight text-white font-bold">Pythonda dasturlash asoslari</h1>
+                        <p class="text-white text-base mt-4">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
+                        <a class="inline-block mt-12 bg-orange-500 text-white py-2 px-4 text-sm rounded font-bold shadow-xl" href="#">Buyurtma berish</a>
+                    </div>
+                    <div>
+                        <img class="rounded-lg relative sm:inline-block hidden top-12 box-border" src="images/python-book.jpg" alt="" width="510" height="510">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+        <section class="sm:mt-96 mt-24">
+            <div class="max-w-6xl w-full mx-auto box-border px-4">
+                <hr class="mb-16 border-t-4 w-24 border-solid border-orange-500">
+                <h1 class="sm:text-6xl text-4xl leading-tight text-black font-bold">Nega aynan <br> Akademnashr?</h1>
+                <ul class="mt-24 flex flex-col sm:flex-row sm:justify-between">
+                    <li class="sm:w-1/4 w-full flex flex-col items-center sm:inline-block">
+                        <img class="bg-pink-200 p-4 rounded-full" src="images/cursor-click.svg" alt="" width="70" height="70">
+                        <h2 class="mt-6 text-2xl font-bold">Oson buyurtma qilish</h2>
+                        <p class="mt-2 sm:text-left text-center">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+                    </li>
+                    <li class="sm:w-1/4 w-full flex flex-col items-center sm:inline-block sm:mt-0 mt-8">
+                        <img class="bg-pink-200 p-4 rounded-full" src="images/lightning-bolt.svg" alt="" width="70" height="70">
+                        <h2 class="mt-6 text-2xl font-bold">Eng sara kitoblar</h2>
+                        <p class="mt-2 sm:text-left text-center">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
+                    </li>
+                    <li class="sm:w-1/4 w-full flex flex-col items-center sm:inline-block sm:mt-0 mt-8">
+                        <img class="bg-pink-200 p-4 rounded-full" src="images/sparkles.svg" alt="" width="70" height="70">
+                        <h2 class="mt-6 text-2xl font-bold">Tez yetkazib berish</h2>
+                        <p class="mt-2 sm:text-left text-center">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="sm:mt-96 mt-24">
+            <div class="max-w-6xl w-full mx-auto box-border sm:px-16 px-8 bg-stone-800 rounded-2xl sm:flex inline-block justify-between items-center">
+                <div class="sm:w-2/5 w-full pt-8 ">
+                    <h1 class="text-4xl leading-tight text-white font-bold">Bolalar kitoblari uchun ajoyib aksiya!</h1>
+                    <p class="text-white text-base mt-8">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+                    <p class="text-white text-base mt-4">Aksiyadagi eng katta to’plamda <span class="text-orange-500">50 ta kitob</span>ni <span class="text-orange-500">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                    <a class="inline-block mt-12 bg-orange-500 text-white py-2 px-4 text-sm rounded font-bold shadow-xl" href="#">Buyurtma berish</a>
+                </div>
+                <div>
+                    <img class="rounded-xl sm:relative static sm:my-0 my-16  bottom-12" src="images/sale-img.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="sm:mt-64 mt-24 bg-gray-100 py-16">
+        <div class="max-w-6xl w-full mx-auto box-border px-4">
+            <div class="flex justify-between items-center pb-8 border-solid border-black border-b-2">
+                <a href="index.html">
+                    <img class="sm:w-full w-48" src="images/logo.svg" alt="">
+                </a>
+                <ul class="flex">
+                    <li class="mr-8 scale-150">
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </li>
+                    <li class="mr-8 scale-150">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="scale-150">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-16 flex justify-between flex-wrap">
+                <ul class="sm:w-1/5 w-5/12">
+                    <li><a href="#">Bosh sahifa</a></li>
+                    <li><a href="#">Kontaktlar</a></li>
+                    <li><a href="#">Kitoblar</a></li>
+                    <li><a href="#">Aksiyalar</a></li>
+                    <li><a href="#">Yangiliklar</a></li>
+                </ul>
+                <ul class="sm:w-1/5 w-5/12">
+                    <li><a href="">Ilmiy nashrlar</a></li>
+                    <li><a href="">Ilmiy-ommabop nashrlar</a></li>
+                    <li><a href="">Ma’rifiy nashrlar</a></li>
+                    <li><a href="">Lug’atlar</a></li>
+                    <li><a href="">Adabiy-badiiy nashrlar</a></li>
+                    <li><a href="">Abituriyentlar uchun</a></li>
+                    <li><a href="">Bolalar uchun</a></li>
+                </ul>
+                <ul class="sm:w-1/5 w-5/12 sm:mt-0 mt-8">
+                    <li><a href="">Ko’p so’raladigan savollar</a></li>
+                    <li><a href="">Yetkazib berish haqida</a></li>
+                    <li><a href="">To’lov usullari haqida</a></li>
+                </ul>
+                <ul class="sm:w-1/5 w-5/12 sm:mt-0 mt-8">
+                    <li><a href="">Bo’sh ish o’rinlari</a></li>
+                    <li><a href="">Biz bilan bog’lanish</a></li>
+                    <li><a href="">Maxfiylik nizomi</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
